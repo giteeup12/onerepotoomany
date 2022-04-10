@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+	"log"
+)
+
+func main() {
+	fmt.Println("hello")
+	animlist := []string{"anim2", "anim2"}
+	for ele, value := range animlist {
+		log.Println(ele, value)
+	}
+
+}
