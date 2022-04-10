@@ -1,0 +1,21 @@
+// You can edit this code!
+// Click here and start
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("hi")
+	xx := 100
+	xx = xx / 2
+	switch xx {
+	case 100:
+		fmt.Println("100")
+	case 34:
+
+		fmt.Println("34")
+	case 50:
+		fmt.Println("50")
+	}
+
+}
